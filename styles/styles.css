@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(40, 35, 35);
+    margin: 0;
+    padding: 2px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.headerClass {
+    text-align: left;
+    margin-left: 50px;
+    color: white;
+}
+
+.headerClass h1 {
+    font-size: 300%;
+    margin-bottom: 5px;
+}
+
+.headerClass h1 span {
+    color: green;
+}
+
+.headerClass h2 {
+    font-size: 200%;
+    margin-top: 5px;
+}
+
+.aboutClass {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+.aboutClass h1 {
+    font-size: 300%;
+    margin-bottom: 5px;
+}
+
+.aboutClass p {
+    font-size: 125%;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.aboutClass p strong {
+    color: green;
+}
+
+.proyectsClass {
+    color: white;
+}
+
+.conocimientosClass {
+    color: white;
+}
+
+.contactClass {
+    color: white;
+}
