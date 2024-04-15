@@ -3,17 +3,21 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 nav {
-    background-color: rgb(40, 35, 35);
+    background-color: black;
     margin: 0;
     padding: 2px;
 }
 
+li {
+   list-style-type: none; 
+}
+
 nav li {
     display: inline;
-    list-style-type: none;
     padding: 0;
     margin-right: 20px;
 }
@@ -69,10 +73,39 @@ a {
     color: white;
 }
 
-.conocimientosClass {
-    color: white;
+.conocimientosClass ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.conocimientosClass h1 {
+    margin-left: 3vh;
+}
+
+.conocimientosClass div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contactClass {
     color: white;
+}
+
+.contactClass h1 {
+    margin-left: 3vh;
+}
+
+.contactClass li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactClass div {
+    margin-right: 20px;
 }
